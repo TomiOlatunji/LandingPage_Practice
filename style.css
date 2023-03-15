@@ -1,0 +1,90 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.HeroSection {
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    
+}
+
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.Logo {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 300;
+}
+
+.HeroSectionTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#BigText {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+#SmallText {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+    padding-bottom: 12px;
+}
+
+#HeroImage {
+    width: 600px;
+    height: 240px;
+    border: 2px #313947 solid;
+    background-color: #737c8b;
+    margin-left: 30px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+#HeroButton {
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.HeroMessage {
+    width: 500px;  
+}
