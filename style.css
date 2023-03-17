@@ -88,3 +88,41 @@ a {
 .HeroMessage {
     width: 500px;  
 }
+
+.SecondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.SecondBigText {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+   
+}
+
+.EmptyBoxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    width: 100px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #313947;
+}
+
+.EmptyBox {
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6 solid;
+    background-color: #fff;
+    border-radius: 14px;
+    margin-bottom: 12px;
+}
